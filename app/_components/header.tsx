@@ -6,7 +6,11 @@ const Header = () => {
   return (
     <div className="flex justify-between px-5 pt-6">
       <Image src="/1logo.png" alt="uFood" height={30} width={100} />
-      <Button size="icon" variant="outline">
+      <Button
+        size="icon"
+        variant="outline"
+        className="border-none bg-transparent"
+      >
         <MenuIcon />
       </Button>
     </div>
