@@ -1,3 +1,7 @@
-export default function Home() {
-  return <div className="m-3 mt-5 bg-red-500 p-1">Home</div>;
-}
+import Header from "./_components/header";
+
+const Home = () => {
+  return <Header />;
+};
+
+export default Home;
